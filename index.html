@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Biweekly<br>Finance<br>Briefing</title>
+    <style>
+        body {
+            background: #F5EBE1;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 40px;
+            color: #1E1928;
+        }
+        img.header-logo {
+            width: 320px;
+            display: block;
+            margin: 0 auto 20px auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .tab {
+            overflow: hidden;
+            margin-bottom: 0;
+        }
+        .tab button {
+            background-color: #ffffff;
+            float: left;
+            border: 1px solid #ccc;
+            border-bottom: none;
+            border-radius: 8px 8px 0 0;
+            outline: none;
+            cursor: pointer;
+            padding: 16px 32px;
+            font-size: 17px;
+            font-weight: bold;
+            color: #555055;
+            transition: 0.3s;
+            min-width: 180px;
+        }
+        .tab button:hover {
+            background-color: #F5EBE1;
+        }
+        .tab button.active {
+            background-color: #F54B1E;
+            color: white;
+        }
+        .tabcontent {
+            display: none;
+            padding: 30px;
+            border: 1px solid #ccc;
+            border-top: none;
+            border-radius: 0 0 12px 12px;
+            background: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        .accordion {
+            background-color: white;
+            color: black;
+            cursor: pointer;
+            padding: 14px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            font-size: 1.05em;
+            font-weight: bold;
+            border-bottom: 1px solid #ddd;
+        }
+        .accordion:hover {
+            background-color: #f1f1f1;
+        }
+        .brief {
+            font-size: 0.95em;
+            color: #555055;
+            margin: 4px 0 8px 0;
+            padding-left: 10px;
+        }
+        .panel {
+            padding: 0 18px 8px 18px;
+            background-color: white;
+            display: none;
+            overflow: hidden;
+            border-left: 3px solid #F54B1E;
+            margin-bottom: 10px;
+        }
+        a {
+            color: black;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+
+    
+    
+<div style="display: flex; justify-content: space-between; align-items: flex-end; margin-top: 20px; margin-bottom: 40px; flex-wrap: wrap;">
+    <div style="flex-grow: 1;">
+        <img src="https://raw.githubusercontent.com/saeyan-kim/BWFB/main/Yanolja_CMYK_Logo_Orange.png" alt="Yanolja Logo" style="height: 36px; margin-bottom: 16px;">
+        <div style="font-size:2.4em; border-left: 8px solid #FF4F6E; padding-left: 16px; color: #333; line-height: 1.2; font-weight: bold;">
+            Biweekly Finance Briefing
+        </div>
+    </div>
+    <div style="font-size: 0.95em; color: #555; text-align: right; min-width: 120px; margin-bottom: 6px; font-family: Georgia, serif;">
+        January 7, 2026
+    </div>
+</div>
+
+    
+
+<div class="tab">
+<button class="tablinks" onclick="openTab(event, 'GAAP')">GAAP</button>
+<button class="tablinks" onclick="openTab(event, 'GAAS')">GAAS</button>
+<button class="tablinks" onclick="openTab(event, 'Tax')">Tax</button>
+<button class="tablinks" onclick="openTab(event, 'D&C')">D&C</button>
+<button class="tablinks" onclick="openTab(event, 'Notice')">Notice</button>
+</div>
+
+<div id="GAAP" class="tabcontent">
+<h2>GAAP</h2>
+
+
+<button class="accordion">이찬진 '회계 위반 고의'로 봤는데…SK에코플랜트, IPO 괜찮을까</button>
+<div class="brief">금융당국이 SK에코플랜트의 회계 위반을 '고의'로 판단하면서, 2026년으로 예정된 IPO 일정에 차질이 우려됩니다.</div>
+<div class="panel">
+<p>SK에코플랜트는 미국 자회사의 매출을 과대 계상한 혐의로 과징금 처분을 받았으며, 금융당국 감리위원회는 이를 단순 과실이 아닌 '고의'로 판단했습니다. 한국거래소의 상장 심사 가이드라인상 최근 회계 감리로 제재를 받은 기업은 심사에서 불리한 평가를 받을 수 있어, 2026년 7월로 설정된 상환전환우선주(RCPS) 상장 시한 내 상장이 불투명해졌습니다. 회사 측은 시장 상황을 고려해 예비심사 청구 시기를 조율 중이나, 회계 리스크가 상장의 최대 걸림돌로 부상했습니다.</p>
+<a href="https://www.1conomynews.co.kr/news/articleView.html?idxno=46121" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">실적 반토막 난 스마일게이트알피지... IPO 한파 속 '상장보류' 재조명</button>
+<div class="brief">스마일게이트RPG는 단일 IP(로스트아크) 의존에 따른 실적 급락과 1,000억 원대 소송전 등 재무 불확실성으로 인해 상장을 보류했습니다.</div>
+<div class="panel">
+<p>한때 기업가치 17조 원까지 거론되던 스마일게이트RPG는 주력 IP인 '로스트아크'의 노후화와 차기작 지연으로 지난해 매출이 전년 대비 약 40% 급감하는 등 실적 부진을 겪고 있습니다. 이에 따라 적정 시가총액 평가액이 1년 만에 7조 원대로 급락하자 회사 측은 상장을 보류했으며, 업계에서는 이를 무리한 상장 강행 시 발생할 수 있는 일반 투자자의 피해를 막은 결정으로 보고 있습니다. 현재 회사는 라이노스 자산운용과 1,000억 원대 손해배상 소송을 진행 중이며, K-IFRS 적용에 따른 전환사채(CB)의 부채 인식으로 인한 상장 추진 의무 소멸 여부가 핵심 쟁점입니다.</p>
+<a href="https://n.news.naver.com/article/030/0003386829?sid=105" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">HD현대오일뱅크, 토지 재평가로 재무건전성 높아져</button>
+<div class="brief">HD현대오일뱅크가 보유 토지에 대한 자산 재평가를 단행하여 자본을 확충하고 부채비율을 개선했습니다.</div>
+<div class="panel">
+<p>HD현대오일뱅크는 수익성 둔화에 대응하기 위해 재무적 전략으로 토지 자산 재평가를 실시, 약 5,568억 원의 평가이익을 기타포괄손익(OCI)으로 자본에 반영했습니다. 이에 따라 부채비율이 226% 수준으로 낮아지는 등 재무지표가 개선되는 효과를 거두었습니다. 하지만 영업이익 흑자 전환에도 불구하고 누적 결손과 과징금 분할 납부 부담 등 실질적인 현금흐름 개선 과제는 여전히 남아있습니다.</p>
+<a href="https://www.youthdaily.co.kr/mobile/article.html?no=207043" target="_blank">원문 보기</a>
+</div>
+
+
+
+</div>
+
+
+<div id="GAAS" class="tabcontent">
+<h2>GAAS</h2>
+
+
+<button class="accordion">1년째 표류하는 고려아연·영풍 회계감리…금감원 결론 왜 늦어지나</button>
+<div class="brief">금융감독원의 고려아연과 영풍에 대한 회계감리가 기한을 넘겨 지연되면서 '봐주기' 의혹이 제기되고 있습니다.</div>
+<div class="panel">
+<p>금융감독원이 고려아연의 사모펀드 가치 과대계상 의혹과 영풍의 충당부채 과소계상 혐의로 감리에 착수한 지 1년이 넘었으나, 당초 예고와 달리 감리위원회 안건 상정조차 이루어지지 않고 있습니다. 감리 조사 기간을 원칙적으로 1년으로 제한하는 규정에도 불구하고 일정이 지연되고 담당 부서장까지 교체되자, 일각에서는 특정 기업 봐주기가 아니냐는 의혹을 제기하고 있습니다. 이번 감리 결과는 내년 3월 정기주총의 핵심 안건인 최윤범 회장의 연임에 직접적인 영향을 미칠 전망입니다.</p>
+<a href="https://n.news.naver.com/article/648/0000043075?sid=101" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">삼일 '금융사', 삼정 '현대차' 잡았다…회계 빅4, 대형사 수주전 마무리</button>
+<div class="brief">2026 회계연도 감사인 수주전에서 현대차, 금융지주 등 대형 매물을 두고 빅4 회계법인의 경쟁이 역대 최고조에 달했습니다.</div>
+<div class="panel">
+<p>자산 2조 원 이상 대형 상장사들의 2026 회계연도 감사인 선임이 마무리된 가운데, 자유수임 물량이 대거 쏟아지며 빅4 간의 경쟁이 그 어느 때보다 치열하게 전개되었습니다. 삼일회계법인이 KB·신한 등 초대형 금융지주를 석권하고, 삼정회계법인이 현대차를 신규 수임함과 동시에 삼성전자·SK하이닉스를 수성하는 등 치열한 각축전이 벌어졌습니다. 안진(한화·LG)과 한영(SK·CJ) 또한 굵직한 그룹사를 확보하며 저력을 보였으나, 수주전이 과열되면서 감사보수를 낮게 제시하는 '치킨게임' 양상이 심화되어 수익성 악화 우려가 커지고 있습니다.</p>
+<a href="https://n.news.naver.com/article/277/0005701093?sid=101" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">“한화오션(옛 대우조선해양)·안진회계,현대해상에 26억 배상해야”</button>
+<div class="brief">법원은 한화오션의 대규모 분식회계와 안진회계법인의 부실 감사를 인정하여 현대해상에 대해 약 26억 원을 배상하라고 판결했습니다.</div>
+<div class="panel">
+<p>서울고등법원은 현대해상화재보험이 한화오션과 안진회계법인을 상대로 제기한 손해배상 소송 항소심에서 원고 일부 승소 판결을 내렸습니다. 재판부는 피고들의 분식회계 및 부실 감사와 원고의 회사채 매입 사이에 상당한 인과관계가 있다고 보고, 손해액은 매입 당시의 취득 가격에서 분식회계가 없었을 경우 형성됐을 정상 가격을 뺀 금액으로 산정해야 한다고 판시했습니다. 다만, 조선업 불황 등 시장 상황을 고려해 한화오션의 책임을 60%, 안진회계법인의 책임을 20%로 제한했습니다.</p>
+<a href="https://m.naeil.com/news/read/573395?ref=naver" target="_blank">원문 보기</a>
+</div>
+
+</div>
+
+
+<div id="Tax" class="tabcontent">
+<h2>Tax</h2>
+
+
+<button class="accordion">SPC, 고강도 세무조사에 승계 로드맵 '먹구름'</button>
+<div class="brief">SPC그룹이 추진하던 파리크라상 중심의 경영권 승계 작업이 국세청 조사4국의 고강도 특별세무조사로 인해 제동이 걸렸습니다.</div>
+<div class="panel">
+<p>파리크라상은 지난 연말 경영 효율화와 지주사 전환을 위해 물적분할 및 자회사 SPC㈜와의 합병 안건을 승인했으나, 국세청의 예기치 못한 특별세무조사라는 악재를 만났습니다. 국세청 조사4국은 그룹 지배구조의 정점인 파리크라상과 계열사 SPL 간의 내부거래 과정에서 이익 이전이나 비용 부풀리기 등 탈루 혐의를 포착하고 조사에 착수한 것으로 보입니다. 이번 조사는 파리크라상을 활용해 허영인 회장의 지분을 자녀들에게 승계하려던 그룹의 중장기 시나리오에 직접적인 타격을 줄 것으로 전망됩니다.</p>
+<a href="https://n.news.naver.com/article/293/0000077351?sid=004" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">국세청, AI 대전환 마스터플랜 사업 추진…IT서비스 대기업 '촉각'</button>
+<div class="brief">국세청이 내년 1,300억 원 규모의 AI 인프라 구축을 위한 마스터플랜(ISMP) 사업을 발주해 IT 대기업들의 수주전이 예상됩니다.</div>
+<div class="panel">
+<p>국세청은 납세 서비스와 업무 생산성 혁신을 목표로 올 1분기 중 18억 원 규모의 'AI 시스템 구축 ISMP 사업'을 발주할 계획입니다. 이번 ISMP는 내년에 진행될 약 1,300억 원 규모의 자체 AI 인프라 구축 및 GPU 700장 확보 사업의 예산을 산출하고 설계를 확정하는 핵심 단계입니다. 과학기술정보통신부가 대기업 참여 제한 예외를 인정함에 따라, 대형 IT서비스 기업들의 입찰 참여가 가능해져 기술력과 서비스 차별화를 내세운 치열한 경쟁이 전망됩니다.</p>
+<a href="https://n.news.naver.com/article/030/0003387427?sid=105" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">코인 수익에 22% 세금 때린다...국세청 과세준비 시동</button>
+<div class="brief">정부가 내년 1월 가상자산 과세 시행을 목표로 인프라 구축에 나섰으나, 시장에서는 추가 유예에 대한 기대와 우려가 공존하고 있습니다.</div>
+<div class="panel">
+<p>정부는 내년 가상자산 과세 시행을 대비해 올해부터 국내 거래소들을 대상으로 고객의 해외 납세의무 정보를 확인하는 등 글로벌 자동정보교환체계(CARF) 이행을 위한 인프라 구축에 돌입했습니다. 이에 따라 국세청은 국내외 투자자의 거래 정보를 상호 교환하여 파악할 수 있게 되었으며, 예정대로라면 내년부터 250만 원을 초과하는 가상자산 소득에 대해 22%의 세금이 부과될 예정입니다. 그러나 투자자들은 시장 침체 등을 이유로 과세 유예를 기대하고 있는 반면, 전문가는 정책 신뢰성을 강조하며 맞서고 있습니다.</p>
+<a href="https://n.news.naver.com/article/018/0006193196?sid=101" target="_blank">원문 보기</a>
+</div>
+
+
+</div>
+
+
+<div id="D&C" class="tabcontent">
+<h2>D&C</h2>
+
+
+<button class="accordion">내부자가 흔든 2025년…2026년 보안 키워드 '다중인증과 접근관리'</button>
+<div class="brief">잇따른 내부자 보안 사고에 대응해 2026년 보안 업계의 핵심 솔루션으로 다중인증(MFA)과 계정 접근 관리가 주목받고 있습니다.</div>
+<div class="panel">
+<p>지난해 발생한 주요 보안 사고들이 대부분 내부자의 계정 탈취나 권한 오남용에서 비롯됨에 따라, 기업들은 '제로 트러스트' 보안 모델 도입을 서두르고 있습니다. 단순히 비밀번호에 의존하는 것을 넘어 생체인증 등을 결합한 다중인증(MFA) 체계를 구축하고, 접속 권한을 실시간으로 통제하는 것이 올해 기업 보안의 최우선 과제가 되었습니다.</p>
+<a href="https://n.news.naver.com/article/138/0002214232?sid=105" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">폴라리스오피스, 데이터 유출 막을 '디지털 블랙박스' 띄웠다</button>
+<div class="brief">폴라리스오피스가 내부자에 의한 핵심 기술 유출을 막기 위해 업무 화면을 기록·분석하는 '디지털 블랙박스' 솔루션을 선보였습니다.</div>
+<div class="panel">
+<p>최근 임직원이 경쟁사로 기술을 빼돌리는 내부 유출 사고가 빈번해지자, 이에 대응하기 위한 사후 추적 및 증거 확보 솔루션이 출시되었습니다. 이 솔루션은 업무용 PC의 화면을 녹화하고 로그를 분석하여 이상 징후를 탐지하며, 사고 발생 시 법적 효력이 있는 증거 자료를 제공하여 기업의 내부통제 시스템을 보완합니다.</p>
+<a href="https://n.news.naver.com/article/277/0005702672?sid=101" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">“얘 뺄 수 없어?”…‘BTS→세븐틴’ 5천만 팬 플랫폼 위버스, 개인정보 유출</button>
+<div class="brief">하이브 자회사 위버스에서 직원이 특정 고객의 개인정보를 유출하고 당첨자 명단을 조작하려던 정황이 드러나 논란이 일고 있습니다.</div>
+<div class="panel">
+<p>국내 최대 팬덤 플랫폼 위버스에서 직원이 특정 고객의 앨범 구매 수량 등 개인정보를 메신저 단체방에 유출하고, 당첨자 명단에서 고의로 배제하려 한 정황이 포착되었습니다. 위버스 측은 2025년 11월 발생한 정보 유출 과실을 인정하며 피해자에게 보상을 지급하겠다고 밝혔으며, 모회사인 하이브는 해당 직원을 즉시 직무에서 배제하고 인사위원회 회부 및 법적 조치를 검토하는 등 내부 통제를 강화하겠다는 입장을 내놓았습니다.</p>
+<a href="https://n.news.naver.com/article/009/0005615384?sid=102" target="_blank">원문 보기</a>
+</div>
+
+
+</div>
+
+
+
+
+<div id="Notice" class="tabcontent">
+  <h2>Notice</h2>
+  <p>안녕하세요. 4분기 결산 일정 공유 드립니다.</p>
+  <p>- 결산완료일 : 1월 9일</p>
+  <p>- PKG완료일 : 1월 16일</p>
+  <p>- PKG검토일 with PWC : 1월 19일 ~ 23일</p>
+    
+</div>
+
+<script>
+function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementsByClassName("tablinks")[0].click();
+    var acc = document.getElementsByClassName("accordion");
+    for (var i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+});
+</script>
+
+</body>
+</html>
